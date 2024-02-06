@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ArticleCard">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="545" height="400"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <background color="-14587799"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2f136" class="javax.swing.JButton" binding="nextArticleButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14587799"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Kefa" size="16" style="0"/>
+          <foreground color="-11952008"/>
+          <text value="Next Article"/>
+        </properties>
+      </component>
+      <component id="3f79d" class="javax.swing.JComboBox" binding="SortBy">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-1708563"/>
+          <focusable value="false"/>
+          <font name="Kefa" size="16" style="0"/>
+          <foreground color="-11952008"/>
+          <model>
+            <item value="Number of Views"/>
+            <item value="Alphabetical by Title"/>
+          </model>
+          <name value="Sort Articles By" noi18n="true"/>
+        </properties>
+      </component>
+      <component id="8a2bf" class="javax.swing.JButton" binding="previousArticleButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14587799"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Kefa" size="16" style="0"/>
+          <foreground color="-11952008"/>
+          <hideActionText value="false"/>
+          <text value="Previous Article"/>
+        </properties>
+      </component>
+      <component id="5034d" class="javax.swing.JLabel" binding="OverviewLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14587799"/>
+          <focusable value="false"/>
+          <font name="Kefa" size="24" style="1"/>
+          <foreground color="-6503007"/>
+          <text value="Abstract"/>
+        </properties>
+      </component>
+      <component id="f431a" class="javax.swing.JLabel" binding="AbstractLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="1" height="1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14587799"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Kefa" size="24" style="1"/>
+          <foreground color="-6503007"/>
+          <text value="Overview Information"/>
+        </properties>
+      </component>
+      <component id="cff04" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a92cb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f4650" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3907b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="88fd8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <scrollpane id="75cdc" binding="InfoScrollPane">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6503007"/>
+          <focusable value="false"/>
+          <foreground color="-6503007"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="f4299" class="javax.swing.JTextPane" binding="Abstract">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-14587799"/>
+              <disabledTextColor color="-11952008"/>
+              <dragEnabled value="true"/>
+              <editable value="false"/>
+              <font name="Kefa" size="20" style="0"/>
+              <foreground color="-11952008"/>
+              <margin top="10" left="10" bottom="10" right="10"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="a9b64" binding="AbstractScrollPane">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="ccf50" class="javax.swing.JTextPane" binding="EverythButAbs">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-14587799"/>
+              <disabledTextColor color="-11952008"/>
+              <dragEnabled value="true"/>
+              <editable value="false"/>
+              <enabled value="false"/>
+              <font name="Kefa" size="20" style="0"/>
+              <foreground color="-11952008"/>
+              <margin top="10" left="10" bottom="10" right="10"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="286bb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7b007" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="9d4b4" binding="DeleteInsertPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14587799"/>
+          <foreground color="-11952008"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="97db6" class="javax.swing.JButton" binding="deleteArticleButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14587799"/>
+              <focusPainted value="false"/>
+              <focusable value="false"/>
+              <font name="Kefa" size="16" style="0"/>
+              <foreground color="-11952008"/>
+              <text value="Delete Article"/>
+            </properties>
+          </component>
+          <component id="5d262" class="javax.swing.JButton" binding="insertArticleButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14587799"/>
+              <font name="Kefa" size="16" style="0"/>
+              <foreground color="-11952008"/>
+              <text value="Insert Article"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="90f09" class="javax.swing.JCheckBox" binding="lightModeCheckBox">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Kefa" size="16" style="0"/>
+          <foreground color="-11952008"/>
+          <text value="Light Mode"/>
+        </properties>
+      </component>
+      <grid id="d4375" binding="LeavePanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14587799"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f5f15" class="javax.swing.JButton" binding="exportButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14587799"/>
+              <font name="Kefa" size="16" style="0"/>
+              <foreground color="-11952008"/>
+              <text value="Export"/>
+            </properties>
+          </component>
+          <component id="4d2ef" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-14587799"/>
+              <focusPainted value="false"/>
+              <focusable value="false"/>
+              <font name="Kefa" size="16" style="0"/>
+              <foreground color="-11952008"/>
+              <text value="Exit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

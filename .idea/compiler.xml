@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ATDSFinalProject" options="--add-exports jakarta.activation/org.openqa.selenium=ALL-UNNAMED --add-exports jakarta.activation/org.openqa.selenium.firefox=ALL-UNNAMED --add-exports jakarta.activation/org.openqa.selenium.support.ui=ALL-UNNAMED --add-exports jakarta.activation/org.openqa.selenium.interactions=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
